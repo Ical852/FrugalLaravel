@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+section.profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+section.profile form {
+  align-items: center;
+  margin: auto;
+}
+
+.d-block {
+  width: 100%;
+}
+
+.profile .row {
+  border: 1px solid #013a20;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile .col-lg-4 .card {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-save,
+.btn-home,
+.btn-logout {
+  background: none;
+  color: #013a20;
+  border-color: #013a20;
+}
+
+.btn-save:hover,
+.btn-home:hover,
+.btn-logout:hover {
+  background: #013a20;
+  border-color: #013a20;
+  transition: 0.5s;
+}
+
+.btn-change {
+  background: #013a20;
+  border-color: #013a20;
+}
+
+.btn-change:hover {
+  background: none;
+  border-color: #013a20;
+  color: #013a20;
+  transition: 0.5s;
+}
+
+section.change-photo {
+  padding: 22px;
+}
+
+@media screen and (max-width: 991px) {
+    section.change-photo {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section.change-photo {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-height: 99vh) {
+    section.change-photo {
+        height: 100%;
+    }
+}

@@ -1,0 +1,233 @@
+.changed {
+    background: linear-gradient(to bottom, #013a20 0%, #478c5c 100%);
+    padding: 180px;
+}
+
+.customed {
+    margin: -20% auto 20px auto;
+}
+
+@media(max-width:1517px) {
+    .changed {
+        padding: 150px;
+    }
+
+    .customed {
+        margin: -22% auto 20px auto
+    }
+}
+
+@media(max-width:1199px) {
+    .customed {
+        margin: -30% auto 20px auto
+    }
+}
+
+@media(max-width:850px) {
+    .changed {
+        padding: 150px;
+    }
+
+    .customed {
+        margin: -42% auto 20px auto
+    }
+}
+
+@media(max-width:600px) {
+    .changed {
+        display: none
+    }
+
+    .customed {
+        margin: -0% auto 20px auto;
+    }
+
+    .kastem {
+        background: linear-gradient(to left, #013a20 0%, #478c5c 100%);
+        padding-bottom: 25px
+    }
+}
+
+.rightside {
+    margin-top: -200px
+}
+
+@media(max-width:1549px) {
+    .rightside {
+        margin-top: 0px
+    }
+}
+
+@media(max-width:991px) {
+    .leftside {
+        display: none
+    }
+    .aboutimg2 {
+        display: none;
+    }
+}
+
+.satu-product {
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.satu-product a {
+    display: block;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 5px solid #dfdfdf;
+    border-width: thin;
+    box-shadow: rgb(49 53 59 / 12%) 0px 1px 6px 0px;
+    padding: 10px;
+}
+
+.satu-product:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.satu-product a .product-img {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.satu-product a .product-img .default-img {
+    width: 100%;
+    height: 250px;
+    object-fit: scale-down;
+    /* float: left; */
+}
+
+@media(max-width:450px) {
+    .satu-product a .product-img .default-img {
+        height: 150px;
+    }
+}
+
+@media(max-width:350px) {
+    .satu-product a .product-img .default-img {
+        height: 120px;
+    }
+}
+
+.satu-product a .product-content {
+    /* margin-top: 20px; */
+}
+
+.satu-product a .product-content h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px;
+    overflow: hidden;
+    word-wrap: break-word;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-family: "Roboto", sans-serif;
+}
+
+.satu-product a .product-content .product-price {
+    margin: 6px 0 0 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.satu-product a .product-content .product-price span {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px;
+    overflow: hidden;
+    word-wrap: break-word;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* V2 shop */
+.satu-product-v2 {
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+.satu-product-v2 a {
+    display: block;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 5px solid #dfdfdf;
+    border-width: thin;
+    box-shadow: rgb(49 53 59 / 12%) 0px 1px 6px 0px;
+    padding: 10px;
+}
+
+.satu-product-v2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.satu-product-v2 a .product-img {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.satu-product-v2 a .product-img .default-img {
+    width: 100%;
+    height: 200px;
+    object-fit: scale-down;
+    /* float: left; */
+}
+
+@media(max-width:450px) {
+    .satu-product-v2 a .product-img .default-img {
+        height: 150px;
+    }
+}
+
+@media(max-width:350px) {
+    .satu-product-v2 a .product-img .default-img {
+        height: 120px;
+    }
+}
+
+.satu-product-v2 a .product-content {
+    /* margin-top: 20px; */
+}
+
+.satu-product-v2 a .product-content h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px;
+    overflow: hidden;
+    word-wrap: break-word;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-family: "Roboto", sans-serif;
+}
+
+.satu-product-v2 a .product-content .product-price {
+    margin: 6px 0 0 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.satu-product-v2 a .product-content .product-price span {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px;
+    overflow: hidden;
+    word-wrap: break-word;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-family: "Roboto", sans-serif;
+}
+
+.textcontent {
+    margin-top: auto;
+    margin-bottom: auto;
+}

@@ -1,0 +1,10 @@
+.toko-image {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.toko-profile {
+    border-radius: 10px;
+    width: 300px;
+}
